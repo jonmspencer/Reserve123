@@ -57,5 +57,4 @@ require_once('../../header.php'); ?>
 			</div><!-- END WRAP -->
 		</div><!-- END THE DARKENING -->
 	</div><!-- END GLORY -->
-	
 <?php require_once('../../footer.php'); ?>
