@@ -1,6 +1,6 @@
 <?php // CHICAGO 
 require_once('../../header.php'); ?>
-<body class="city">
+<body class="city chicago">
 <?php require_once('../../global.php');?>
 	<div id="glory" class="yep">
 		<div class="darken" class="yep">

@@ -129,6 +129,10 @@ body.home {
 	background-image: url("images/SanFransiscoBay.jpg");
 }
 
+body.city.chicago {
+	background-image: url("images/cities/Chicago.jpg");
+}
+
 p { 
 	line-height: 170%;
 	margin: 0 0 20px; 
