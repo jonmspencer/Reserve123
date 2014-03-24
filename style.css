@@ -712,6 +712,28 @@ ul#dwls_search_results li a:hover {
     width: 100%;
 }
 
+.reviewer {
+	color: #999999;
+    font-family: 'Lato Italic';
+    font-size: 12px;
+    margin: 0 0 0 15px;
+}
+
+.reviewTitle {
+    margin: 0 0 20px;
+}
+
+.singleReview .reviewText {
+	color: #666666;
+    font-family: 'Lato';
+    width: 62%;
+}
+
+.review {
+	font-size: 14px;
+	line-height: 140%;
+}
+
 
 
 
@@ -939,7 +961,6 @@ ul.photos li a:hover {
     text-align: center;
     width: 60%;
 }
-
 
 
 /* 
