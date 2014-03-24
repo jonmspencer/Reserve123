@@ -130,7 +130,7 @@ body.home {
 }
 
 p { 
-	line-height: 170%;
+	line-height: 140%;
 	margin: 0 0 20px; 
 }	
 						  
@@ -726,12 +726,10 @@ ul#dwls_search_results li a:hover {
 .singleReview .reviewText {
 	color: #666666;
     font-family: 'Lato';
-    width: 62%;
 }
 
-.review {
+.reviewText p {
 	font-size: 14px;
-	line-height: 140%;
 }
 
 
