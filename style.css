@@ -712,11 +712,15 @@ ul#dwls_search_results li a:hover {
     width: 100%;
 }
 
+.singleReview .textRating {
+	color: #999999;
+}
+
 .reviewer {
 	color: #999999;
     font-family: 'Lato Italic';
     font-size: 12px;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
 }
 
 .reviewTitle {

@@ -163,7 +163,8 @@ require_once('../../header.php'); ?>
 					<div class="tabLeft">
 						<div class="singleReview teehee">
 							<div class="rating teehee">
-								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> 
+								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+								<span class="textRating">4 of 5 Stars</span>
 								<span class="reviewer">by Cale S. on March 24, 2014</span>
 							</div><!-- END RATING -->
 							<div class="reviewText">
@@ -173,7 +174,8 @@ require_once('../../header.php'); ?>
 						</div><!-- END SINGLE REVIEW -->
 						<div class="singleReview teehee">
 							<div class="rating teehee">
-								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> 
+								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+								<span class="textRating">4 of 5 Stars</span>
 								<span class="reviewer">by Cale S. on March 24, 2014</span>
 							</div><!-- END RATING -->
 							<div class="reviewText">
@@ -183,11 +185,13 @@ require_once('../../header.php'); ?>
 						</div><!-- END SINGLE REVIEW -->
 						<div class="singleReview teehee">
 							<div class="rating teehee">
-								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> 
+								<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+								<span class="textRating">4 of 5 Stars</span>
 								<span class="reviewer">by Cale S. on March 24, 2014</span>
 							</div><!-- END RATING -->
 							<div class="reviewText">
 								<div class="reviewTitle">Integer vitae libero ac risus egestas placerat.</div>
+								<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
 								<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
 							</div>
 						</div><!-- END SINGLE REVIEW -->
