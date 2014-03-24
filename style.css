@@ -153,6 +153,10 @@ body.city.chicago #glory {
 	background-image: url("images/cities/Chicago.jpg");
 }
 
+body.tour #glory {
+	background-image: url("images/TrolleyTour.jpg");
+}
+
 .theDarkness, .darken {
 	height: 100%;
     left: 0;

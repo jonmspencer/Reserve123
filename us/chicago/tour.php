@@ -64,16 +64,16 @@ require_once('../../header.php'); ?>
 			<div class="wrap">
 				<ul class="tabs teehee">
 					<li>
-						<a class="tab tabActive" rel="#overview" href="#">Overview</a>
+						<a class="tab tabActive" href="#overview">Overview</a>
 					</li>
 					<li>
-						<a class="tab" rel="#details" href="#">Details</a>
+						<a class="tab" href="#details">Details</a>
 					</li>
 					<li>
-						<a class="tab" rel="#photos" href="#">Photos</a>
+						<a class="tab" href="#photos">Photos</a>
 					</li>
 					<li>
-						<a class="tab" rel="#reviews" href="#">Reviews</a>
+						<a class="tab" href="#reviews">Reviews</a>
 					</li>
 				</ul><!-- END TABS -->
 			</div><!-- END WRAP -->
@@ -148,13 +148,13 @@ require_once('../../header.php'); ?>
 				<div id="photos" class="tabContent">
 					<ul class="photos">
 						<li>
-							<a class="photo yep" href="#" title="Chicago from a helicopter trolley, one of the first of it's kind." style="background-image:url('<?php echo get_stylesheet_directory_uri();?>/images/categories/Chicago.jpg');"></a>
+							<a class="photo yep" href="#" title="Chicago from a helicopter trolley, one of the first of it's kind." style="background-image:url('')"></a>
 						</li>
 						<li>
-							<a class="photo yep" href="#" title="This is New York, actually. Um, Whoops." style="background-image:url('<?php echo get_stylesheet_directory_uri();?>/images/categories/NewYork.jpg');"></a>
+							<a class="photo yep" href="#" title="This is New York, actually. Um, Whoops." style="background-image:url('');"></a>
 						</li>
 						<li>
-							<a class="photo yep" href="#" title="THIS IS CAPTION DATA" style="background-image:url('ABSOLUTE URL');"></a>
+							<a class="photo yep" href="#" title="THIS IS CAPTION DATA" style="background-image:url('');"></a>
 						</li>
 					</ul><!-- END PHOTOS -->
 				</div>
