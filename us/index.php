@@ -8,7 +8,7 @@ require_once('../header.php'); ?>
 			<div class="wrap">	
 				<div class="featuredPost yep">
 					<a class="featuredTitle yep">Hop On Hop Off Trolley Tour</a>
-					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop on Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
+					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop On Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
 					</div><!-- END FEATURED EXCERPT -->
 					<a class="cta" href="#">Book Now</a>
 					<div class="priceDetail">Starting at <span class="featuredPrice">$35.95</span></div>
