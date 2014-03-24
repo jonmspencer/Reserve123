@@ -40,6 +40,6 @@
 	<div id="main-curtain"></div><!-- END OF MAIN-CURTAIN -->
 	<script src="/inc/js/jquery.mobile.custom.min.js"></script>
 	<script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
-	<script src="/inc/scripts.js"></script>
+	<script src="/inc/js/scripts.js"></script>
 </body>
 </html>

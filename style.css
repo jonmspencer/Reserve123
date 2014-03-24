@@ -129,10 +129,6 @@ body.home {
 	background-image: url("images/SanFransiscoBay.jpg");
 }
 
-body.city.chicago {
-	background-image: url("images/cities/Chicago.jpg");
-}
-
 p { 
 	line-height: 170%;
 	margin: 0 0 20px; 
@@ -149,7 +145,12 @@ p {
 	background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 74px 0 0;
     z-index: 9;
+}
+
+body.city.chicago #glory {
+	background-image: url("images/cities/Chicago.jpg");
 }
 
 .theDarkness, .darken {
@@ -203,7 +204,7 @@ p {
 	padding: 60px 0;
 }
 
-body.single .contentWrap {
+body.tour .contentWrap {
 	background-color: #e0e0e0;
 	padding: 60px 0 0;
 }
@@ -336,7 +337,7 @@ h1#homeHeading span.decor {
 #header {}
 
 #global { 
-
+	position: absolute;
 }
 
 #logo { 

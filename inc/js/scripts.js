@@ -1,5 +1,3 @@
-
-
 	jQuery(document).ready(function($) {
 		var Chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 		var Safari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
