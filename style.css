@@ -627,8 +627,9 @@ ul#dwls_search_results li a:hover {
 
 
 .listHead {
-	margin: 0 0 40px;
-	text-transform: uppercase;
+	margin: 0 0 -1.65%;
+    padding: 0 0 50px;
+    text-transform: uppercase;
 }
 
 .listHead h3 {
@@ -649,7 +650,7 @@ ul#dwls_search_results li a:hover {
 
 .featuredPost {
 	color: #FFFFFF;
-	margin: 174px 0;
+    margin: 100px 0 174px;
 }
 
 .featuredPost a.cta {
@@ -749,7 +750,7 @@ a.tourHead .tourHeadInfo {
 }
 
 .thTop {
-	margin: 0 0 25%;
+	margin: 0 0 15%;
 }
 
 .tourTime {
