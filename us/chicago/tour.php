@@ -83,28 +83,7 @@ require_once('../../header.php'); ?>
 			<div class="wrap">
 				<div id="overview" class="tabContent">
 					<div class="tabRight">
-						<h2>Pricing</h2>
-						<ul class="pricing teehee">
-							<li class="ticket teehee">
-								<div class="ticketTitle">Adult</div>
-								<div class="ticketPrice">$44.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Adult <span class="ticketTitleNote">one day only</span></div>
-								<div class="ticketPrice">$34.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Child</div>
-								<div class="ticketPrice">$17.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Child <span class="ticketTitleNote">under 3 years</span></div>
-								<div class="ticketPrice">Free</div>
-							</li>
-						</ul><!-- END PRICING -->
-						<div class="pricingNotes teehee">
-							*Tickets valid for up to 3 days. Booking this tour by phone will incur a $5.00 convenience charge.
-						</div><!-- END PRICING NOTES -->
+						<?php require('tourPricing.php'); ?>
 					</div><!-- END TAB RIGHT -->	
 					<div class="tabLeft">
 						<h2>Tour Overview</h2>
@@ -117,28 +96,7 @@ require_once('../../header.php'); ?>
 				<!-- END OVERVIEW -->
 				<div id="details" class="tabContent ">
 					<div class="tabRight">
-						<h2>Pricing</h2>
-						<ul class="pricing teehee">
-							<li class="ticket teehee">
-								<div class="ticketTitle">Adult</div>
-								<div class="ticketPrice">$44.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Adult <span class="ticketTitleNote">one day only</span></div>
-								<div class="ticketPrice">$34.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Child</div>
-								<div class="ticketPrice">$17.95</div>
-							</li>
-							<li class="ticket teehee">
-								<div class="ticketTitle">Child <span class="ticketTitleNote">under 3 years</span></div>
-								<div class="ticketPrice">Free</div>
-							</li>
-						</ul><!-- END PRICING -->
-						<div class="pricingNotes teehee">
-							*Tickets valid for up to 3 days. Booking this tour by phone will incur a $5.00 convenience charge.
-						</div><!-- END PRICING NOTES -->
+						<?php require('tourPricing.php'); ?>
 					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
 						<h2>Tour Detail</h2>
@@ -154,12 +112,15 @@ require_once('../../header.php'); ?>
 							<a class="photo yep" href="#" title="This is New York, actually. Um, Whoops." style="background-image:url('');"></a>
 						</li>
 						<li>
-							<a class="photo yep" href="#" title="THIS IS CAPTION DATA" style="background-image:url('');"></a>
+							<a class="photo yep" href="#" title="This is a riveting caption." style="background-image:url('');"></a>
 						</li>
 					</ul><!-- END PHOTOS -->
 				</div>
 				<!-- END PHOTOS -->
 				<div id="reviews" class="tabContent">
+					<div class="tabRight">
+						<?php require('tourPricing.php'); ?>
+					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
 						<div class="singleReview teehee">
 							<div class="rating teehee">
@@ -201,5 +162,4 @@ require_once('../../header.php'); ?>
 			</div><!-- END WRAP -->
 		</div><!-- END TAB CONTENT --> 
 	</div><!-- END CONTENT WRAP -->
-	
 <?php require_once('../../footer.php'); ?>

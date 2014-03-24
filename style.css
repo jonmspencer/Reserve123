@@ -130,7 +130,7 @@ body.home {
 }
 
 p { 
-	line-height: 140%;
+	line-height: 170%;
 	margin: 0 0 20px; 
 }	
 						  
@@ -828,15 +828,17 @@ ul.tabs {}
 ul.tabs li {}
 
 ul.tabs li a.tab {
-	border-radius: 6px 6px 0 0;
+	background-color: rgba(0, 0, 0, 0.016);
+    border-radius: 6px 6px 0 0;
     color: #666666;
     display: block;
     font-family: "Lato Bold";
+    margin: 0 2px 0 0;
     padding: 20px 40px;
     text-transform: uppercase;
 }
 
-a.tab.tabActive, .tabContainer {
+ul.tabs li a.tab.tabActive, .tabContainer {
 	background-color: #EDEDED;
 }
 
