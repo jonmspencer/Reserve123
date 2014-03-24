@@ -1,4 +1,6 @@
-<h2>Pricing</h2>
+<h2>Pricing
+	<span class="pricingNotes">US Dollars Including Tax</span>
+</h2>
 <ul class="pricing teehee">
 	<li class="ticket teehee">
 		<div class="ticketTitle">Adult</div>

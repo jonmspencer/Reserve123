@@ -503,10 +503,12 @@ h1,h2,h3,h4,h5,h6
 
 h2 {
 	border-bottom: 2px solid #D2D2D2;
+    display: table;
     font-size: 24px;
     margin: 0 0 40px;
     padding: 0 0 20px;
     text-transform: uppercase;
+    width: 100%;
 }
 
 
@@ -903,6 +905,14 @@ li.ticket {
     font-size: 12px;
     line-height: 170%;
     margin: 0 0 20px;
+}
+
+h2 span.pricingNotes {
+	display: table-cell;
+    margin: 0;
+    text-align: right;
+    text-transform: none;
+    vertical-align: baseline;
 }
 
 
