@@ -51,7 +51,7 @@ require_once('../../header.php'); ?>
 			<div class="wrap">	
 				<div class="featuredPost yep">
 					<a class="featuredTitle yep">Hop On Hop Off Trolley Tour</a>
-					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop on Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
+					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop On Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
 					</div><!-- END FEATURED EXCERPT -->
 					<a class="cta" href="#">Book Now</a>
 					<div class="priceDetail">Starting at <span class="featuredPrice">$35.95</span></div>
@@ -126,7 +126,7 @@ require_once('../../header.php'); ?>
 						<ul>
 							<li>Millennium Park</li>
 							<li>Michigan Avenue Bridge</li>
-							<li>Garret Popcorn/Theatre District</li>
+							<li>Garret Popcorn / Theatre District</li>
 							<li>Art Institute</li>
 							<li>Hilton Chicago</li>
 							<li>Field Museum</li>
@@ -135,9 +135,9 @@ require_once('../../header.php'); ?>
 							<li>Magnificent Mile</li>
 							<li>Water Tower</li>
 							<li>John Hancock Observatory</li>
-							<li>Hard Rock/River North</li>
+							<li>Hard Rock / River North</li>
 							<li>Skydeck Chicago</li>
-							<li>Chicago Theatre/Macy's on State Street</li>
+							<li>Chicago Theatre / Macy's on State Street</li>
 						</ul>
 						<em>Specific boarding locations will be noted on your E-Ticket.</em>
 						<p><em>Route subject to change.</em></p>
@@ -169,7 +169,7 @@ require_once('../../header.php'); ?>
 						<p>It's said that all roads lead to Chicago. The trolley staff will help you have the most fun with the greatest ease. With diverse backgrounds, your tour guides and drivers have one thing in common - a passion for Chicago. While you tour everything from underground streets to internationally-acclaimed skyscrapers, they're excited to share their knowledge. Enjoy the ride!</p>
 						<p><em>No boarding or exiting from the trolleys and double deckers except at the designated stops.</em></p>
 						<p><em>Pickups available only at designated trolley stops. Child rate applies to children ages 3 to 12. Children under 3 are free.</em></p>
-						<p><strong>Please order online or call 888-881-3284 to order or for more information.</strong></p>
+						<p><strong>Call <a href="tel:1-888-881-3284">888-881-3284</a> for more information, or to order by phone.</strong></p>
 					</div><!-- END TAB LEFT -->
 				</div>
 				<!-- END DETAILS -->
