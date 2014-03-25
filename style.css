@@ -31,7 +31,11 @@ sup					  { vertical-align:0;position:relative;bottom: 1ex; }
 .smallcaps			  { font-variant:small-caps; }
 .underline			  { border-bottom:1px solid; }
 .bold, strong, .italic, em			  
-					  { font-weight:normal; }
+					  { font-style: normal; font-weight: normal; line-height: 170%; }
+.bold, strong 		  { font-family: 'Lato Black', 'Lato Bold' }
+.italic, em 		  { font-family: 'Lato Italic' }
+.bold.italic, strong em, em strong
+					  { font-family: 'Lato Black Italic', 'Lato Bold Italic' }
 .yep				  { display: inline-block; }
 .teehee				  { display: table; }
 .yep, .teehee		  { position: relative; width: 100%; }
@@ -204,6 +208,15 @@ body.tour #glory {
 
 .contentWrap {
 	padding: 60px 0;
+}
+
+#content ul, #content ol {
+	margin: 0 0 20px;
+}
+
+#content ul li, #content ol li {
+	line-height: 170%;
+    list-style: disc inside none;
 }
 
 body.tour .contentWrap {
@@ -812,7 +825,9 @@ a.tourHead .priceDetail {
 
 .tabMenu {}
 
-ul.tabs {}
+ul.tabs, #content ul.tabs {
+	margin: 0;
+}
 
 ul.tabs li {}
 
