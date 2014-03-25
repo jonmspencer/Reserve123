@@ -39,6 +39,7 @@ sup					  { vertical-align:0;position:relative;bottom: 1ex; }
 .cloak				  { display: none; }
 *:focus 			  { outline: 0; }			  
 html, body			  { height: 100%; }	
+.sp					  { background-image: url("images/rsp.png"); background-repeat: no-repeat; background-size: 100px auto; position: relative; }
 					
 /*
 ::selection 		  { background:; }
@@ -88,10 +89,7 @@ a.cta.alt {
 }
 
 a.x {
-	background-image: url("images/rsp.png");
     background-position: center -438px;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
     display: block;
     height: 16px;
     padding: 20px;
@@ -139,6 +137,7 @@ p {
     max-width: 1440px;
     position: relative;
     width: 90%; 
+    z-index: 2;
 }
 	
 #glory {
@@ -146,7 +145,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 74px 0 0;
-    z-index: 9;
 }
 
 body.city.chicago #glory {
@@ -189,12 +187,12 @@ body.tour #glory {
 .shadow {
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.15)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
 
 	height: 400px;
@@ -219,6 +217,7 @@ body.tour .contentWrap {
     z-index: 9;
 }
 
+
 /*
 2.0.1  GLOBAL STRUCTURE - BREADCRUMB
 ------------------------------------------------------------------------------------------
@@ -242,10 +241,7 @@ body.tour .contentWrap {
 }
 
 li.marker {
-	background-image: url("images/rsp.png");
     background-position: -42px -342px;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
     height: 24px;
     padding: 23px 9px;
 }
@@ -345,14 +341,10 @@ h1#homeHeading span.decor {
 }
 
 #logo { 
-	background-image: url("images/rsp.png");
     background-position: -24px 15px;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
     font-family: "Lato Bold";
     font-size: 24px;
-    padding: 25px 20px 25px 66px;
-    position: relative; }
+    padding: 25px 20px 25px 66px; }
     
 #globalNav { 
 	display: inline-block;
@@ -378,12 +370,18 @@ a.phone {
     
 a.phone:hover { 
 	opacity: 1; }
-
+	
+a.searchIcon, a.navIcon {
+	height: 28px;
+}
+	
 a.searchIcon {
-	background-image: url("images/rsp.png");
     background-position: center -73px;
-    background-size: 100px auto;
-    height: 28px;
+}
+
+a.navIcon {
+	background-position: center -524px;
+    width: 34px;
 }
     
 a.navItem, .menu li a {
@@ -479,9 +477,7 @@ body.home .copyright {
 }
 
 a#trustwave { 
-	background-image: url("images/rsp.png");
     background-position: center -223px;
-    background-repeat: no-repeat;
     background-size: 100% auto;
     display: block;
     height: 55px;
@@ -535,10 +531,7 @@ input[type="submit"], button
 }
 
 span.searchIcon {
-	background-image: url("images/rsp.png");
     background-position: -39px -100px;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
     display: inline-block;
     height: 21px;
     left: 4.5%;
@@ -555,12 +548,6 @@ span.searchIcon.focus {
 
 input#s {
 	background-color: rgba(0, 0, 0, 0.65);
-    /*
-background-image: url("images/rsp.png");
-    background-position: -10px -71px;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
-*/
     border-radius: 6px;
     color: #FFFFFF;
     font-family: "Lato Italic";
@@ -903,8 +890,6 @@ li.ticket {
 .pricingNotes {
 	color: #999999;
     font-size: 12px;
-    line-height: 170%;
-    margin: 0 0 20px;
 }
 
 h2 span.pricingNotes {
@@ -977,6 +962,10 @@ ul.photos li a:hover {
     width: 60%;
 }
 
+
+.sideModule {
+	margin: 0 0 50px;
+}
 
 /* 
 X.0 WEBFONTS -----------------------------------------------------
@@ -1098,19 +1087,21 @@ Y.0 RESPONSIVE LAYOUT STYLES
 */
 
 /* RESPONSIVE RESETS */
-#footMenu li.mobileItem {
+#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill {
 	display: none;
 }
 
 
 @media screen and (max-width: 960px) {
+
 	
-	/* RESPONSIVE RESETS */
-	#footMenu li.mobileItem {
+	
+	/* RESPONSIVE RESETS */	
+	#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill  {
 		display: inline-block;
 	}
 	
-	#logo .brandType, #breadcrumbs, .listHead a, #globalNav, #subHeader {
+	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity {
 		display: none;
 	}
 	

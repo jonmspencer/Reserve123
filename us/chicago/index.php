@@ -6,14 +6,12 @@ require_once('../../header.php'); ?>
 		<div class="darken" class="yep">
 			<div id="subHeader" class="teehee">
 				<div class="wrap">
-					
 					<ul id="breadcrumbs">
-						<li class="marker"></li>
+						<li class="marker sp"></li>
 						<li>
 							<a title="You're Here!" href="/us/chicago/">Chicago</a> 
 						</li>
-					</ul><!-- END BREADCRUBS -->
-					
+					</ul><!-- END BREADCRUBS -->				
 					<ul class="menu">
 						<li>
 							<a href="index.php">Accomodations</a>

@@ -6,6 +6,15 @@ require_once('../../header.php'); ?>
 		<div class="darken" class="yep">
 			<div id="subHeader" class="teehee">
 				<div class="wrap">
+					<ul id="breadcrumbs">
+						<li class="marker sp"></li>
+						<li>
+							<a title="Chicago, Illinois" href="/us/chicago/">Chicago</a> 
+						</li>
+						<li class="separator">&rsaquo;</li>
+						<li class="current">Hop On Hop Off Trolley Tour
+						</li>
+					</ul><!-- END BREADCRUBS -->
 					<ul class="menu">
 						<li>
 							<a href="index.php">Accomodations</a>
@@ -83,7 +92,7 @@ require_once('../../header.php'); ?>
 			<div class="wrap">
 				<div id="overview" class="tabContent">
 					<div class="tabRight">
-						<?php require('tourPricing.php'); ?>
+						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->	
 					<div class="tabLeft">
 						<h2>Tour Overview</h2>
@@ -96,7 +105,7 @@ require_once('../../header.php'); ?>
 				<!-- END OVERVIEW -->
 				<div id="details" class="tabContent ">
 					<div class="tabRight">
-						<?php require('tourPricing.php'); ?>
+						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
 						<h2>Tour Detail</h2>
@@ -106,7 +115,7 @@ require_once('../../header.php'); ?>
 				<div id="photos" class="tabContent">
 					<ul class="photos">
 						<li>
-							<a class="photo yep" href="#" title="Chicago from a helicopter trolley, one of the first of it's kind." style="background-image:url('')"></a>
+							<a class="photo yep" href="#" title="Chicago from a helicopter trolley, one of the first of it's kind." style="background-image:url('images/ChicagoRiver.jpg')"></a>
 						</li>
 						<li>
 							<a class="photo yep" href="#" title="This is New York, actually. Um, Whoops." style="background-image:url('');"></a>
@@ -119,7 +128,7 @@ require_once('../../header.php'); ?>
 				<!-- END PHOTOS -->
 				<div id="reviews" class="tabContent">
 					<div class="tabRight">
-						<?php require('tourPricing.php'); ?>
+						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
 						<div class="singleReview teehee">

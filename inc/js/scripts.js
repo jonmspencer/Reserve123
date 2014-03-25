@@ -253,6 +253,7 @@
 			    }
 			});
 		
+/*
 	
 			// ACTIVE CLASS
 			var url = window.location;
@@ -263,6 +264,7 @@
 			    return this.href == url;
 			}).addClass('better-active');
 			
+*/
 		    // FORM STUFF
 		    var el = jQuery('input[type=text], textarea');
 		    el.focus(function(e) {
