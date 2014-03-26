@@ -9,8 +9,10 @@ require_once('../../header.php'); ?>
 					<ul id="breadcrumbs">
 						<li class="marker sp"></li>
 						<li>
-							<a title="You're Here!" href="/us/chicago/">Chicago</a> 
+							<a title="United States" href="/us/">United States</a> 
 						</li>
+						<li class="separator">&rsaquo;</li>
+						<li class="current">Chicago</li>
 					</ul><!-- END BREADCRUBS -->				
 					<ul class="menu">
 						<li>
