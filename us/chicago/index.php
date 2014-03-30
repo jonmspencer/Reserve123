@@ -49,7 +49,7 @@ require_once('../../header.php'); ?>
 			</div><!-- END SUBHEADER -->
 			<div class="wrap">	
 				<div class="featuredPost yep">
-					<a class="featuredTitle yep">Hop On Hop Off Trolley Tour</a>
+					<h1 class="featuredTitle yep">Hop On Hop Off Trolley Tour</h1>
 					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop On Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
 					</div><!-- END FEATURED EXCERPT -->
 					<a class="cta" href="tour">Book Now</a>

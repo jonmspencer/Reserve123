@@ -68,7 +68,7 @@ body.home a.navItem {
 	text-transform: uppercase; 
 }
 
-.sub-menu, #home a.searchIcon, #logo .brandTypeCity  { 
+.sub-menu, #home a.searchIcon, #logo .brandTypeCity, body.home a.searchIcon  { 
 	display: none; 
 }
 
@@ -151,7 +151,7 @@ p {
     padding: 74px 0 0;
 }
 
-body.city.chicago #glory {
+body #glory {
 	background-image: url("us/chicago/images/Chicago.jpg");
 }
 
@@ -325,10 +325,6 @@ h1#homeHeading span.decor {
 
 #searchLight h1#homeHeading span.decor {
 	color: rgba(140, 140, 140, 0.35);
-}
-
-#searchLight, ul#dwls_search_results {
-	z-index: 999;
 }
 
 #searchLight, #main-curtain {
@@ -637,16 +633,28 @@ ul#dwls_search_results li a:hover {
 ------------------------------------------------------------------
 */
 
+.listHead, .listFoot {
+	text-transform: uppercase;	
+}
 
 .listHead {
 	margin: 0 0 -1.65%;
     padding: 0 0 50px;
-    text-transform: uppercase;
+}
+
+.listFoot {
+	padding: 50px 0 0;
+    text-align: center; 
+}
+
+.listFoot a {
+	padding: 0 20px;
 }
 
 .listHead h3 {
 	font-size: 24px;
 	float: left;
+	margin: 0;
 }
 
 .listHead a {
@@ -670,7 +678,7 @@ ul#dwls_search_results li a:hover {
     margin: 0 30px 0 0;
 }
 
-.featuredTitle { 
+.featuredTitle, #glory h1 { 
 	color: #FFFFFF;
     font-family: "Lato Light";
     font-size: 58px;
@@ -948,7 +956,7 @@ ul.photos {
     width: 102%;
 }
 
-ul.photos li {
+ul.photos li, #content ul.photos li {
 	margin: 1%;
     width: 23%;
 }
@@ -1121,6 +1129,15 @@ Y.0 RESPONSIVE LAYOUT STYLES
 ------------------------------------------------------------------
 */
 
+#subHeader {
+	z-index: 998;
+}
+
+#searchLight, ul#dwls_search_results {
+	z-index: 999;
+}
+
+
 /* RESPONSIVE RESETS */
 #footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill {
 	display: none;
@@ -1128,16 +1145,37 @@ Y.0 RESPONSIVE LAYOUT STYLES
 
 
 @media screen and (max-width: 960px) {
-
-	
 	
 	/* RESPONSIVE RESETS */	
 	#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill  {
 		display: inline-block;
 	}
 	
-	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity {
+	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, .mobileKill, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity {
 		display: none;
+	}
+	
+	.tabLeft, ul.photos, #content ul.photos li, .tabMenu .wrap, ul.tabs li {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	
+	ul.tabs li {
+		border-bottom: 1px solid #D2D5D6;
+	}
+	
+	ul.tabs li a.tab {
+		border-radius: 0;
+	}
+	
+	ul.tabs li a.tab.tabActive {
+		background-color: #FFF;
+	}
+	
+	
+	ul.photos li, #content ul.photos li {
+		margin: 0 0 5%;
 	}
 	
 	.featuredPost {

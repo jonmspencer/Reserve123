@@ -50,7 +50,7 @@ require_once('../../header.php'); ?>
 			</div><!-- END SUBHEADER -->
 			<div class="wrap">	
 				<div class="featuredPost yep">
-					<a class="featuredTitle yep">Hop On Hop Off Trolley Tour</a>
+					<h1 class="featuredTitle yep">Hop On Hop Off Trolley Tour</h1>
 					<div class="featuredExcerpt yep">Voted Chicago's best tour, this Hop On Hop Off Trolley Tour has long been the gold standard for touring downtown Chicago.
 					</div><!-- END FEATURED EXCERPT -->
 					<a class="cta" href="#">Book Now</a>
@@ -69,6 +69,11 @@ require_once('../../header.php'); ?>
 	</div><!-- END GLORY -->
 	
 	<div id="content" class="contentWrap teehee">
+		<div class="mobilePricing desktopKill teehee">
+			<div class="wrap">
+				<?php require('tourSidebar.php'); ?>
+			</div><!-- END WRAP -->
+		</div><!-- END MOBILE PRICING -->
 		<div class="tabMenu teehee">
 			<div class="wrap">
 				<ul class="tabs teehee">
@@ -91,7 +96,7 @@ require_once('../../header.php'); ?>
 		<div class="tabContainer teehee">
 			<div class="wrap">
 				<div id="overview" class="tabContent">
-					<div class="tabRight">
+					<div class="tabRight mobileKill">
 						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->	
 					<div class="tabLeft">
@@ -113,7 +118,7 @@ require_once('../../header.php'); ?>
 				</div>
 				<!-- END OVERVIEW -->
 				<div id="details" class="tabContent ">
-					<div class="tabRight">
+					<div class="tabRight mobileKill">
 						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
@@ -188,7 +193,7 @@ require_once('../../header.php'); ?>
 				</div>
 				<!-- END PHOTOS -->
 				<div id="reviews" class="tabContent">
-					<div class="tabRight">
+					<div class="tabRight mobileKill">
 						<?php require('tourSidebar.php'); ?>
 					</div><!-- END TAB RIGHT -->
 					<div class="tabLeft">
