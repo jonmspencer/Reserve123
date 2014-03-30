@@ -149,13 +149,14 @@
 				}
 			});
 			
+			
 			// SINGLE PAGE TAB SELECTION				
 			$('a.tab, a.allReviews').click(function(e) {
 				var tab = $(this);
 				var href = $(this).attr('href');
 				var tabId = $(this).attr('id');
 				if($(window).width() > 960) {
-				tab.addClass('tabActive').parent().siblings().children().removeClass('tabActive');
+					tab.addClass('tabActive').parent().siblings().children().removeClass('tabActive');
 					setTimeout(function() {
 						if($('div' + href).is(':visible')) {
 							// DO NOTHING
@@ -166,8 +167,12 @@
 						change();
 					}, 125);
 				} else {
-					$(this).parent().find('div.mobileContent').slideToggle(600);
-					$(this).toggleClass('minus');
+					clearTimeout($(tab).data('tabTimeout'));
+					var tabTimeout = setTimeout(function() {
+						$(tab).parent().find('div.mobileContent').slideToggle(600);
+						$(tab).toggleClass('minus');
+					}, 300);
+					tab.data('tabTimeout', tabTimeout);
 					//$(this).parent().siblings().find('div.mobileContent').slideUp(400);
 					/*
 					setTimeout(function() {
@@ -176,16 +181,20 @@
 					    }, 400);
 					}, 200)					
 					*/
+					change();
 				}
-				e.preventDefault();
-							
-			});		
+				e.preventDefault();		
+			});
 			$('a.allReviews').click(function(e) {
-				$('a.tab').removeClass('tabActive');
-				$('a.tab[href="#reviews"]').addClass('tabActive');
-			    $('html, body').animate({
-			        scrollTop: $('#content').offset().top
-			    }, 400);
+				if($(window).width() > 960) {
+					$('a.tab').removeClass('tabActive');
+					$('a.tab[href="#reviews"]').addClass('tabActive');
+				    $('html, body').animate({
+				        scrollTop: $('#content').offset().top
+				    }, 400);
+			    } else {
+				    
+			    }
 			    e.preventDefault();
 			});
 
