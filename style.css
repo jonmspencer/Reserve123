@@ -701,6 +701,11 @@ ul#dwls_search_results li a:hover {
     top: 3px;
 }
 
+.stars.webkit {
+	font-size: 20px;
+	top: 1px; 
+}
+
 .textRating {
 	color: #FFFFFF;
     margin: 0 0 0 10px;

@@ -55,6 +55,10 @@
 			    
 			} // FINISHED ON WINDOW LOAD
 			change();
+			
+			if(Safari || Chrome) {
+				$('.stars').addClass('webkit');
+			}
 
 
 			// MENU DROPDOWN ON HOVER
