@@ -1139,7 +1139,7 @@ Y.0 RESPONSIVE LAYOUT STYLES
 
 
 /* RESPONSIVE RESETS */
-#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill {
+#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill, .mobileContent {
 	display: none;
 }
 
