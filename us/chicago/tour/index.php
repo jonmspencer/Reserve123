@@ -78,27 +78,27 @@ require_once('../../../header.php'); ?>
 			<div class="wrap">
 				<ul class="tabs teehee">
 					<li>
-						<a class="tab tabActive" href="#overview">Overview</a>
+						<a id="tab1" class="tab tabActive" href="#overview">Overview</a>
 						<div class="mobileContent wrap">
 							<?php require('overview.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a class="tab" href="#details">Details</a>
+						<a id="tab2" class="tab" href="#details">Details</a>
 						<div class="mobileContent wrap">
-							<?php require('overview.php'); ?>
+							<?php require('details.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a class="tab" href="#photos">Photos</a>
+						<a id="tab3" class="tab" href="#photos">Photos</a>
 						<div class="mobileContent wrap">
-							<?php require('overview.php'); ?>
+							<?php require('photos.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a class="tab" href="#reviews">Reviews</a>
+						<a id="tab4" class="tab" href="#reviews">Reviews</a>
 						<div class="mobileContent wrap">
-							<?php require('overview.php'); ?>
+							<?php require('reviews.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 				</ul><!-- END TABS -->
