@@ -79,19 +79,15 @@ require_once('../../header.php'); ?>
 				<ul class="tabs teehee">
 					<li>
 						<a class="tab tabActive" href="#overview">Overview</a>
-						<div class="wrap mobileContent"></div>
 					</li>
 					<li>
 						<a class="tab" href="#details">Details</a>
-						<div class="wrap mobileContent"></div>
 					</li>
 					<li>
 						<a class="tab" href="#photos">Photos</a>
-						<div class="wrap mobileContent"></div>
 					</li>
 					<li>
 						<a class="tab" href="#reviews">Reviews</a>
-						<div class="wrap mobileContent"></div>
 					</li>
 				</ul><!-- END TABS -->
 			</div><!-- END WRAP -->

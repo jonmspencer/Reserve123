@@ -1151,7 +1151,7 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		display: inline-block;
 	}
 	
-	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, .mobileKill, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity {
+	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, .mobileKill, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity, .tabLeft h2, .tabContainer {
 		display: none;
 	}
 	
@@ -1166,7 +1166,13 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	}
 	
 	ul.tabs li a.tab {
-		border-radius: 0;
+		background-color: #FFFFFF;
+	    border-radius: 0;
+	    font-family: "Lato";
+	    font-size: 24px;
+	    margin: 0;
+	    padding: 5%;
+	    width: 90%;
 	}
 	
 	ul.tabs li a.tab.tabActive {
