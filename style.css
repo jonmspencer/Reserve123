@@ -107,7 +107,7 @@ a.x {
 	z-index: 99;
 }
 
-ul.tabs li, #breadcrumbs li, #logo, .priceDetail, li.tour, ul.photos li {
+ul.tabs > li, #breadcrumbs li, #logo, .priceDetail, li.tour, ul.photos li {
 	display: inline-block;
     float: left;
 }
@@ -212,16 +212,6 @@ body.country #glory {
 
 .contentWrap {
 	padding: 60px 0;
-}
-
-#content ul, #content ol {
-	margin: 0 0 20px;
-}
-
-#content ul li, #content ol li {
-	line-height: 170%;
-    list-style: disc outside none;
-    margin: 0 0 0 40px;
 }
 
 body.tour .contentWrap {
@@ -751,6 +741,7 @@ ul#dwls_search_results li a:hover {
 
 .reviewTitle {
     margin: 0 0 20px;
+    line-height: 140%;
 }
 
 .singleReview .reviewText {
@@ -848,7 +839,7 @@ a.tourHead .priceDetail {
 
 .tabMenu {}
 
-#content ul.tabs, ul.tabs, #content ul.tabs li  {
+#content ul.tabs, ul.tabs, #content ul.tabs > li  {
 	margin: 0;
 }
 
@@ -1129,6 +1120,16 @@ Y.0 RESPONSIVE LAYOUT STYLES
 ------------------------------------------------------------------
 */
 
+#content ul, #content ol {
+	margin: 0 0 20px;
+}
+
+#content ul li, #content ol li, #content .mobileContent ul li, #content .mobileContent ol li {
+	line-height: 170%;
+    list-style: disc outside none;
+    margin: 0 0 0 40px;
+}
+
 #subHeader {
 	z-index: 998;
 }
@@ -1155,35 +1156,35 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		display: none;
 	}
 	
-	.tabLeft, ul.photos, #content ul.photos li, .tabMenu .wrap, ul.tabs li {
+	.tabLeft, ul.photos, #content ul.photos > li, .tabMenu .wrap, ul.tabs > li {
 		float: none;
 		margin: 0;
 		width: 100%;
 	}
 	
-	.mobileContent .wrap {
-		margin: 10% auto;
-		width: 90%;
+	.mobileContent {
+		background-color: #EDEDED;
 	}
 	
-	ul.tabs li {
-		border-bottom: 1px solid #D2D5D6;
+	.mobileContent .wrap {
+		margin: 0 auto;
+		padding: 10% 0;
+		width: 90%;
 	}
 	
 	ul.tabs li a.tab, ul.tabs li a.tab.tabActive {
 		background-color: #FFFFFF;
+		border-bottom: 1px solid #D2D5D6;
 	    border-radius: 0;
 	    font-family: "Lato";
 	    font-size: 24px;
 	    margin: 0;
 	    padding: 25px 5%;
-/*
-		
+/*		
 		background-image: url("images/rsp.png");
 	    background-position: -20px -935px;
 	    background-repeat: no-repeat;
 	    background-size: 100px auto;
-	   ;
 	    padding: 25px 65px;
 	    -webkit-transition: all 0s ease-in-out;
 		-moz-transition: all 0s ease-in-out;
@@ -1199,9 +1200,6 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	    top: 2px;
 	    width: 20px;
 	}
-	
-
-	
 	
 	ul.photos li, #content ul.photos li {
 		margin: 0 0 5%;
@@ -1373,6 +1371,10 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	span.stars {
 		font-size: 24px;
 	}
+	
+	ul.tabs li a.tab span {
+		top: -12px;
+	}
 }
 
 /* Smartphones (Portrait) */
@@ -1383,6 +1385,12 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	
 	ul.tourList span.tourTime {
 		display: none;
+	}
+	
+	.reviewer {
+		display: inline-block;
+		margin: 10px 0 0;
+		width: 100%;
 	}
 
 }
