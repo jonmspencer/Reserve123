@@ -1139,7 +1139,7 @@ Y.0 RESPONSIVE LAYOUT STYLES
 
 
 /* RESPONSIVE RESETS */
-#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill, .mobileContent {
+#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill, .mobileContent, .plus, .minus {
 	display: none;
 }
 
@@ -1147,11 +1147,11 @@ Y.0 RESPONSIVE LAYOUT STYLES
 @media screen and (max-width: 960px) {
 	
 	/* RESPONSIVE RESETS */	
-	#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill  {
+	#footMenu li.mobileItem, .desktopKill, #globalNav li.desktopKill, ul.tabs li a.tab.minus .minus, .plus  {
 		display: inline-block;
 	}
 	
-	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, .mobileKill, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity, .tabLeft h2, .tabContainer {
+	#logo .brandType, #breadcrumbs, .listHead a, #subHeader, .mobileKill, li.mobileKill, #globalNav li.mobileKill, body.home #globalNav, body.home #logo .brandTypeCity, .mobileContent .wrap h2, .tabContainer, ul.tabs li a.tab .minus, ul.tabs li a.tab.minus .plus {
 		display: none;
 	}
 	
@@ -1161,8 +1161,8 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		width: 100%;
 	}
 	
-	.mobileContent.wrap {
-		margin: 0 auto;
+	.mobileContent .wrap {
+		margin: 10% auto;
 		width: 90%;
 	}
 	
@@ -1170,19 +1170,37 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		border-bottom: 1px solid #D2D5D6;
 	}
 	
-	ul.tabs li a.tab {
+	ul.tabs li a.tab, ul.tabs li a.tab.tabActive {
 		background-color: #FFFFFF;
 	    border-radius: 0;
 	    font-family: "Lato";
 	    font-size: 24px;
 	    margin: 0;
-	    padding: 5%;
-	    width: 90%;
+	    padding: 25px 5%;
+/*
+		
+		background-image: url("images/rsp.png");
+	    background-position: -20px -935px;
+	    background-repeat: no-repeat;
+	    background-size: 100px auto;
+	   ;
+	    padding: 25px 65px;
+	    -webkit-transition: all 0s ease-in-out;
+		-moz-transition: all 0s ease-in-out;
+		-o-transition: all 0s ease-in-out;
+*/
 	}
 	
-	ul.tabs li a.tab.tabActive {
-		background-color: #FFF;
+	ul.tabs li a.tab span {
+		font-size: 34px;
+	    line-height: 0;
+	    margin: 0 10px 0 0;
+	    position: relative;
+	    top: 2px;
+	    width: 20px;
 	}
+	
+
 	
 	
 	ul.photos li, #content ul.photos li {

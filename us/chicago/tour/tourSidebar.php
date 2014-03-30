@@ -24,6 +24,4 @@
 		<li>* Tickets valid for up to 3 days. Booking this tour by phone will incur a $5.00 convenience charge.</li>
 		<li>* There are no refunds. All sales are final.</li>
 	</ul><!-- END PRICING NOTES -->
-	
 </div><!-- END SIDE MODULE -->
-

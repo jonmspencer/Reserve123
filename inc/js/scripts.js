@@ -166,13 +166,16 @@
 						change();
 					}, 125);
 				} else {
-					$(this).parent().find('div.mobileContent').slideToggle();
-					$(this).parent().siblings().find('div.mobileContent').slideUp(100);
+					$(this).parent().find('div.mobileContent').slideToggle(600);
+					$(this).toggleClass('minus');
+					//$(this).parent().siblings().find('div.mobileContent').slideUp(400);
+					/*
 					setTimeout(function() {
 						$('html, body').animate({
 					        scrollTop: $(tab).offset().top
-					    }, 50);
-				    }, 100)
+					    }, 400);
+					}, 200)					
+					*/
 				}
 				e.preventDefault();
 							

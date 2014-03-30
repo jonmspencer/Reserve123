@@ -78,27 +78,35 @@ require_once('../../../header.php'); ?>
 			<div class="wrap">
 				<ul class="tabs teehee">
 					<li>
-						<a id="tab1" class="tab tabActive" href="#overview">Overview</a>
-						<div class="mobileContent wrap">
+						<a id="tab1" class="tab tabActive" href="#overview"><span class="plus">+</span><span class="minus">-</span>Overview</a>
+						<div class="mobileContent">
+							<div class="wrap">
 							<?php require('overview.php'); ?>
+							</div><!-- END WRAP -->
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab2" class="tab" href="#details">Details</a>
-						<div class="mobileContent wrap">
+						<a id="tab2" class="tab" href="#details"><span class="plus">+</span><span class="minus">-</span>Details</a>
+						<div class="mobileContent">
+							<div class="wrap">
 							<?php require('details.php'); ?>
+							</div><!-- END WRAP -->
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab3" class="tab" href="#photos">Photos</a>
-						<div class="mobileContent wrap">
+						<a id="tab3" class="tab" href="#photos"><span class="plus">+</span><span class="minus">-</span>Photos</a>
+						<div class="mobileContent">
+							<div class="wrap">
 							<?php require('photos.php'); ?>
+							</div><!-- END WRAP -->
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab4" class="tab" href="#reviews">Reviews</a>
-						<div class="mobileContent wrap">
+						<a id="tab4" class="tab" href="#reviews"><span class="plus">+</span><span class="minus">-</span>Reviews</a>
+						<div class="mobileContent">
+							<div class="wrap">
 							<?php require('reviews.php'); ?>
+							</div><!-- END WRAP -->
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 				</ul><!-- END TABS -->
@@ -108,16 +116,33 @@ require_once('../../../header.php'); ?>
 		<div class="tabContainer teehee">
 			<div class="wrap">
 				<div id="overview" class="tabContent">
-					<?php require('overview.php'); ?>
+					<div class="tabRight mobileKill">
+						<?php require('tourSidebar.php'); ?>
+					</div><!-- END TAB RIGHT -->
+					<div class="tabLeft">	
+						<?php require('overview.php'); ?>
+					</div><!-- END TAB LEFT -->
 				</div><!-- END OVERVIEW -->
-				<div id="details" class="tabContent ">
+				<div id="details" class="tabContent">
+					<div class="tabRight mobileKill">
+						<?php require('tourSidebar.php'); ?>
+					</div><!-- END TAB RIGHT -->
+					<div class="tabLeft">	
 					<?php require('details.php'); ?>
+					</div><!-- END TAB LEFT -->
 				</div><!-- END DETAILS -->
 				<div id="photos" class="tabContent">
+					<div class="tabLeft">
 					<?php require('photos.php'); ?>
+					</div><!-- END TAB LEFT -->
 				</div><!-- END PHOTOS -->
 				<div id="reviews" class="tabContent">
+					<div class="tabRight mobileKill">
+						<?php require('tourSidebar.php'); ?>
+					</div><!-- END TAB RIGHT -->
+					<div class="tabLeft">
 					<?php require('reviews.php'); ?>
+					</div><!-- END TAB LEFT -->
 				</div><!-- END REVIEWS -->
 			</div><!-- END WRAP -->
 		</div><!-- END TAB CONTENT --> 
