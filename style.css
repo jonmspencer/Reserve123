@@ -717,7 +717,7 @@ ul#dwls_search_results li a:hover {
     padding: 20px 0 60px;
 }
 
-.allReviews {
+a.allReviews {
 	clear: both;
     display: inline-block;
     float: none;

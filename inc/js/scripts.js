@@ -155,6 +155,7 @@
 				var tab = $(this);
 				var href = $(this).attr('href');
 				var tabId = $(this).attr('id');
+				change();
 				if($(window).width() > 960) {
 					tab.addClass('tabActive').parent().siblings().children().removeClass('tabActive');
 					setTimeout(function() {
@@ -164,9 +165,10 @@
 							$('div' + href).parent().children().animate({ opacity: 0 }, 125).hide();
 							$('div' + href).show().animate({ opacity: 1 }, 125);
 						}
-						change();
+						//change();
 					}, 125);
 				} else {
+					change();
 					clearTimeout($(tab).data('tabTimeout'));
 					var tabTimeout = setTimeout(function() {
 						$(tab).parent().find('div.mobileContent').slideToggle(600);
@@ -181,7 +183,6 @@
 					    }, 400);
 					}, 200)					
 					*/
-					change();
 				}
 				e.preventDefault();		
 			});
@@ -193,7 +194,11 @@
 				        scrollTop: $('#content').offset().top
 				    }, 400);
 			    } else {
-				    
+				    $('a.tab[href="#reviews"]').parent().find('div.mobileContent').slideDown(600);
+				    $('a.tab[href="#reviews"]').addClass('minus');
+				    $('html, body').animate({
+					        scrollTop: $('a.tab[href="#reviews"]').offset().top
+					    }, 400);
 			    }
 			    e.preventDefault();
 			});
