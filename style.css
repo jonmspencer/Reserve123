@@ -1161,6 +1161,11 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		width: 100%;
 	}
 	
+	.mobileContent.wrap {
+		margin: 0 auto;
+		width: 90%;
+	}
+	
 	ul.tabs li {
 		border-bottom: 1px solid #D2D5D6;
 	}

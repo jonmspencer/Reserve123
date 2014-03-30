@@ -52,9 +52,7 @@
 					});
 				} // END FOOTER TRICKS
 
-			
-				
-				
+
 				
 				
 
@@ -63,9 +61,6 @@
 			change();
 			
 	
-							
-
-			
 			
 			
 			
