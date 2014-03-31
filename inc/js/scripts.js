@@ -175,8 +175,11 @@
 				} else {
 					clearTimeout($(tab).data('tabTimeout'));
 					var tabTimeout = setTimeout(function() {
-						$(tab).parent().find('div.mobileContent').slideToggle(600);
+						$(tab).parent().find('div.mobileContent').slideToggle(500);
 						$(tab).toggleClass('minus');
+						setTimeout(function() {
+							change();
+						}, 200);
 					}, 300);
 					tab.data('tabTimeout', tabTimeout);
 					
