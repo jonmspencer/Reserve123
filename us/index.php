@@ -3,7 +3,7 @@ require_once('../header.php'); ?>
 <body class="country">
 <?php require_once('../global.php'); ?>
 	<div id="glory" class="yep">
-		<div class="darken" class="yep">
+		<div class="darken yep">
 			<div id="subHeader" class="teehee">
 				<div class="wrap">
 					<ul id="breadcrumbs">

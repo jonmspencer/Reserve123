@@ -24,13 +24,15 @@
 			
 			// RESIZERS 
 			function change(){	
+			
+				// CLEANUP CRAP
+				
 				
 				//PICTURE HEIGHT
 				var imageWidth = $("a.photo").width();
 				$("a.photo").css({
 					height: imageWidth * 0.8
 				});
-				
 
 				// FOOTER TO THE BOTTOM 
 				var winHeight = $(window).height();
@@ -149,13 +151,17 @@
 				}
 			});
 			
-			
+			// NUMBER TABS
+			$.each($("a.tab"), function(index, value){
+		    	var num = index + 1;
+		    	$(value).attr("id","tab"+ num);
+		    });
+				
 			// SINGLE PAGE TAB SELECTION				
 			$('a.tab, a.allReviews').click(function(e) {
 				var tab = $(this);
 				var href = $(this).attr('href');
 				var tabId = $(this).attr('id');
-				change();
 				if($(window).width() > 960) {
 					tab.addClass('tabActive').parent().siblings().children().removeClass('tabActive');
 					setTimeout(function() {
@@ -165,16 +171,15 @@
 							$('div' + href).parent().children().animate({ opacity: 0 }, 125).hide();
 							$('div' + href).show().animate({ opacity: 1 }, 125);
 						}
-						//change();
 					}, 125);
 				} else {
-					change();
 					clearTimeout($(tab).data('tabTimeout'));
 					var tabTimeout = setTimeout(function() {
 						$(tab).parent().find('div.mobileContent').slideToggle(600);
 						$(tab).toggleClass('minus');
 					}, 300);
 					tab.data('tabTimeout', tabTimeout);
+					
 					//$(this).parent().siblings().find('div.mobileContent').slideUp(400);
 					/*
 					setTimeout(function() {
@@ -342,10 +347,8 @@
 					change();
 				}).trigger('resize');
 						
-
-
 								
-			}); // END WINDOW READY 
+			}); // END WINDOW LOAD 
 		})(jQuery);
 	}); // END DOCUMENT READY
 

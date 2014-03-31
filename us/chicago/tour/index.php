@@ -78,7 +78,7 @@ require_once('../../../header.php'); ?>
 			<div class="wrap">
 				<ul class="tabs teehee">
 					<li>
-						<a id="tab1" class="tab tabActive" href="#overview"><span class="plus">+</span><span class="minus">-</span>Overview</a>
+						<a class="tab tabActive" href="#overview"><span class="plus">+</span><span class="minus">-</span>Overview</a>
 						<div class="mobileContent">
 							<div class="wrap">
 							<?php require('overview.php'); ?>
@@ -86,7 +86,7 @@ require_once('../../../header.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab2" class="tab" href="#details"><span class="plus">+</span><span class="minus">-</span>Details</a>
+						<a class="tab" href="#details"><span class="plus">+</span><span class="minus">-</span>Details</a>
 						<div class="mobileContent">
 							<div class="wrap">
 							<?php require('details.php'); ?>
@@ -94,7 +94,7 @@ require_once('../../../header.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab3" class="tab" href="#photos"><span class="plus">+</span><span class="minus">-</span>Photos</a>
+						<a class="tab" href="#photos"><span class="plus">+</span><span class="minus">-</span>Photos</a>
 						<div class="mobileContent">
 							<div class="wrap">
 							<?php require('photos.php'); ?>
@@ -102,7 +102,7 @@ require_once('../../../header.php'); ?>
 						</div><!-- END MOBILE CONTENT -->
 					</li>
 					<li>
-						<a id="tab4" class="tab" href="#reviews"><span class="plus">+</span><span class="minus">-</span>Reviews</a>
+						<a class="tab" href="#reviews"><span class="plus">+</span><span class="minus">-</span>Reviews</a>
 						<div class="mobileContent">
 							<div class="wrap">
 							<?php require('reviews.php'); ?>

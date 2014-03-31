@@ -1,5 +1,5 @@
 <h2>Tour Detail</h2>
-<p>With the Explore Chicago ticket, you can go visit a Chicago attraction or museum, shop 'til you drop, or just explore - and you have 3 full days to use it.</p>
+<h3>With the Explore Chicago ticket, you can go visit a Chicago attraction or museum, shop 'til you drop, or just explore - and you have 3 full days to use it.</h3>
 <p><strong>PLEASE NOTE:</strong> The Neighborhood Tours and City Lights Night Tours only operate May through September.</p>
 <p>With every ticket purchase, customers enjoy special offers including a souvenir t-shirt, Garrett Popcorn, Chicago-made candy, and much more.</p>
 <strong>Hop-On-Hop-Off Stops:</strong>

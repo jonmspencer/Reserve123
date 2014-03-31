@@ -499,6 +499,17 @@ a#trustwave:hover { opacity: 1; }
 
 h1,h2,h3,h4,h5,h6 
 	{ font-weight: lighter; }
+	
+h1 {
+	color: #FFFFFF;
+    font-family: "Lato Light";
+    font-size: 58px;
+    margin: 0 0 40px;
+}
+
+.darken > .wrap > h1 {
+	margin: 100px 0 40px;
+}
 
 
 h2 {
@@ -668,11 +679,7 @@ ul#dwls_search_results li a:hover {
     margin: 0 30px 0 0;
 }
 
-.featuredTitle, #glory h1 { 
-	color: #FFFFFF;
-    font-family: "Lato Light";
-    font-size: 58px;
-    margin: 0 0 40px;
+.featuredTitle { 
     text-transform: uppercase; 
 }
 
@@ -1156,7 +1163,7 @@ Y.0 RESPONSIVE LAYOUT STYLES
 		display: none;
 	}
 	
-	.tabLeft, ul.photos, #content ul.photos > li, .tabMenu .wrap, ul.tabs > li {
+	.tabLeft, ul.photos, .tabMenu .wrap, ul.tabs > li {
 		float: none;
 		margin: 0;
 		width: 100%;
@@ -1201,8 +1208,14 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	    width: 20px;
 	}
 	
+	#content ul.photos {
+		margin: -2.5% -2.5% 0;
+		width: 105%;	
+	}
+	
 	ul.photos li, #content ul.photos li {
-		margin: 0 0 5%;
+		margin: 2.5%;
+		width: 45%;
 	}
 	
 	.featuredPost {
@@ -1259,7 +1272,7 @@ Y.0 RESPONSIVE LAYOUT STYLES
 	    padding: 5% 8%; /* 15px 30px */
 	}
 	
-	h1#homeHeading {
+	#homeHeading {
 		font-size: 52px;
 		margin: 0 auto 42px;
 		width: 80%;
