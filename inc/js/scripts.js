@@ -60,6 +60,14 @@
 
 			    
 			} // FINISHED ON WINDOW LOAD
+			
+			$(window).resize(function() {
+				if($(window).width() > 960) {
+					$('div.mobileContent').hide();
+					$('a.tab').removeClass('minus');
+				}
+			});
+			
 			change();
 			
 	
